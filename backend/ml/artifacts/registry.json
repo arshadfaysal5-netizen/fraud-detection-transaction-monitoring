@@ -1,0 +1,16 @@
+{
+  "version": "20260922-2159",
+  "trained_at": "2026-09-22T21:59:40.244896+00:00",
+  "source": "synthetic",
+  "n_samples": 10000,
+  "n_positive": 4992,
+  "model": "random_forest+isotonic",
+  "threshold": 0.3342407743496673,
+  "metrics": {
+    "roc_auc": 0.9995,
+    "average_precision": 0.9995,
+    "precision_at_best_f1": 0.996,
+    "recall_at_best_f1": 0.987,
+    "optimal_threshold": 0.3342
+  }
+}

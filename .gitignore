@@ -1,0 +1,41 @@
+# Environment
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ML artifacts & data
+backend/ml/artifacts/*
+!backend/ml/artifacts/.gitkeep
+!backend/ml/artifacts/model.joblib
+!backend/ml/artifacts/registry.json
+backend/ml/data/*
+!backend/ml/data/.gitkeep
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs
+*.log
+logs/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Docker
+*.local.yml
